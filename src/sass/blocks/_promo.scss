@@ -1,0 +1,36 @@
+.promo{
+    margin: 0;
+    height: 494px;
+    &__border{
+        margin: 0 auto;
+        text-align: center;
+        width: 1000px;
+        height: 400px;
+        border: 2px red solid;
+    }
+    &__header{
+        margin-top: 40px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 43px;
+        color: #FF003B;
+    }
+    &__descr{
+        margin: 30px auto 0 auto;
+        width: 751px;
+        height: 214px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 23px;
+        line-height: 29px;
+        text-align: center;
+        color: #000000;
+    }
+    &__mobile{
+        display: none;
+    }
+}
+.mob{
+    display: none;
+}

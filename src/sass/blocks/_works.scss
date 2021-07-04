@@ -1,0 +1,35 @@
+
+.works{
+    margin: 0 auto;
+    width: 1112px;
+    height: 841px;
+    &__bg{
+        background: url('../img/works.svg') center (center/cover) no-repeat;
+    }
+    &__header{
+        text-align: center;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 43px;
+        color: #FFBCCC;
+    }
+    &__image{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 40px 164px 0 164px;
+    }
+    &__img{
+        margin-right: 20px;
+        margin-bottom: 45px;
+        width: 263px;
+        height: 263px;
+        &:nth-child(4){
+            margin-right: 0;
+        }
+        &:nth-child(8){
+            margin-right: 0;
+        }
+    }
+}

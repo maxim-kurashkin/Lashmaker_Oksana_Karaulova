@@ -1,0 +1,44 @@
+.container{
+    width: 1440px;
+}
+.abheader{
+    margin: 0;
+    padding: 100px 0 60px 0;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: #FFBCCC;
+}
+
+
+
+.about{
+    margin: 0 auto;
+    height: 700px;
+    background: url('../img/About_bg.svg') center (center/cover) no-repeat;
+    &__white{
+        color: #fff;
+    }
+    &__flex{
+        display: flex;
+        justify-content: center;
+    }
+    &__descr{
+        padding: 40px 53px 0 0;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        color: #061635;
+    }
+    &__img{
+        width: 276px;
+        height: 397px;
+    }
+}
+
+.phone{
+    display: none;
+}

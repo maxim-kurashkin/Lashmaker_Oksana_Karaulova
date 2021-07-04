@@ -1,0 +1,25 @@
+.pupils{
+    margin: 0 auto;
+    &__bg{
+            background: url('../img/pupils_bg.svg') center (center/cover) no-repeat;
+            height: 1180px;
+    }
+    &__header{
+        padding-top: 80px;
+        padding-right: 15px;
+        text-align: center;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        color: #FFBCCC;
+    }
+    &__white{
+        color: #ffffff;
+    }
+    &__img{
+        margin: 40px 165px 0 164px;
+        width: 1111px;
+        height: 900px;
+    }
+}
+

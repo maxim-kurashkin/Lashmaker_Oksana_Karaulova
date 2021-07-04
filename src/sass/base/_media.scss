@@ -1,0 +1,422 @@
+@media (min-width:2560px){
+    .header{
+        height: 1500px;
+    }
+    .about{
+        height: 1050px;
+    }
+}
+@media (width:1440px){
+
+        //шестая страница
+
+    .pupils{
+        &__img{
+            margin: 40px 164px 0 164px;
+            width: 1112px;
+        }
+    }
+}
+@media (max-width:1439px){
+    .container{
+        width: 768px;
+    }
+
+    //первая страница
+    .name{
+        &__logo{
+            position: fixed;
+            left: 15px;
+            top: 10px;
+            margin-left: 30px;
+            width: 118px;
+            height: 65px;
+        }
+    }
+    .menu{
+        margin: 30px 0 0 149px;
+        height: 60px;
+        &__item{
+            margin-left: 17px;
+        }
+        &__link{
+            font-size: 15px;
+            line-height: 29px;
+        }
+    }
+    .contacts{
+        margin-left: 45px;
+        &__ic{
+            margin-left: 18px;
+        }
+    }
+
+    //третья страница
+    .courses{
+        height: 1500px;
+        &__flex{
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        &__tab{
+            margin-left: 205px;
+            margin-bottom: 30px;
+            &:first-child{
+                margin-left: 205px;
+            }
+        }
+    }
+    //четвертая страница
+    .promo{
+        margin-top: 600px;
+        &__border{
+            width: 760px;
+            height: 300px;
+        }
+        &__header{
+            margin-top: 20px;
+        }
+        &__descr{
+            margin-top: 20px;
+            font-size: 17px;
+        }
+    }
+
+    //пятая страница
+    .works{
+        &__image{
+            padding: 30px 0 0 0 ;
+        }
+        &__img{
+            margin-right: 25px;
+            width: 173px;
+            height: 173px;
+        }
+    }
+
+    //шестая страница
+
+    .pupils{
+        &__bg{
+            height: 860px;
+        }
+        &__img{
+            margin: 40px 0 0 0;
+            width: 768px;
+            height: 622px;
+        }
+    }
+    .pageup{
+        right: 22px;
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media (max-width:768px) {
+    .container{
+        width: 765px;
+    }
+
+    //первая страница
+    .name{
+        &__logo{
+            margin-left: 35px;
+            width: 118px;
+            height: 65px;
+        }
+    }
+    .menu{
+        margin: 30px 0 0 172px;
+        height: 60px;
+        &__item{
+            margin-left: 17px;
+        }
+        &__link{
+            font-size: 13px;
+            line-height: 29px;
+        }
+    }
+    .contacts{
+        margin-left: 20px;
+        &__ic{
+            margin-left: 18px;
+        }
+    }
+    .hamburger{
+        display: none;
+    }
+
+
+    //четвертая страница
+
+    .works{
+        &__image{
+            margin: 0 auto;
+            padding: 30px 58px 0 58px ;
+        }
+        &__img{
+            margin-right: 25px;
+            margin-bottom: 15px;
+            width: 143px;
+            height: 143px;
+        }
+    }
+
+    //шестая страница
+    .pupils{
+        &__bg{
+            height: 860px;
+        }
+        &__img{
+            margin: 40px 0 0 0;
+            width: 764px;
+            height: 620px;
+        }
+    }
+}
+
+@media (max-width:767px){
+    .container{
+        width: 320px;
+    }
+    //первая страница
+    .name{
+        &__logo{
+            margin: 0;
+            position: fixed;
+            left: 15px;
+            top: 10px;
+        }
+    }
+
+    .header{
+        margin: 0 auto;
+        height: 90vh;
+        background: url('../img/Bg_mobile.svg') center (center/cover) no-repeat;
+        border: none;
+    }
+
+    .menu{
+        position: fixed;
+        flex-direction: column;
+        align-items: center;
+        top: 0;
+        right: -100%;
+        width: 50%;
+        height: 100vh;
+        background-color: #FFBCCC;
+        margin-top: 0;
+        padding-top: 70px;
+        transition: 0.6s all;
+        &__item{
+            margin-top: 20px;
+            margin-left: 0;
+        }
+        &__link{
+            color: #ffffff;
+            font-size: 22px;
+        }
+        &_active{
+            right: 0;
+        }
+    }
+    .contacts{
+        margin-left: 0;
+        &__ic{
+            margin-top: 30px;
+            margin-left: 0;
+            margin-right: 20px;
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    } 
+    .hamburger{
+        display: block;
+        position: fixed;
+        right: 15px;
+        top: 37px;
+        transform: translateY(-50%);
+        width: 25px;
+        height: 12px;
+        span{
+            display: block;
+            height: 2px;
+            margin-bottom: 2px;
+            background-color: #FF7C9B;
+            width: 100%;
+            transition: 0.5s all;
+        }
+        &_active{
+            span{
+                margin-bottom: -2px;
+                &:nth-child(1){
+                    transform: translateY(3px) rotate(-45deg);
+                }
+                &:nth-child(2){
+                    display: none;
+                }
+                &:nth-child(3){
+                    transform: translateY(3px) rotate(45deg);
+                }
+            }
+        }
+    }
+
+    //вторая страница
+    .abheader{
+        padding: 0px 0 20px 0;
+    }
+    .about{
+        background: url('../img/About_bg_mobile.svg')  center (center/cover) no-repeat;
+        height: 426px;
+        &__flex{
+            align-items: center;
+            flex-direction: column-reverse;
+        }
+        &__img{
+            width: 148px;
+            height: 213px;
+        }
+        &__descr{
+            padding: 5px;
+            font-size: 10px;
+            line-height: 14px;
+        }
+        br{
+            display: none;
+        }
+        .phone{
+            display: block;
+        }
+    }
+
+
+    //третья страница
+    .courses{
+        height: 1300px;
+        &__tab{
+            padding: 25px 10px 25px 10px;
+            margin-left: 46px;
+            width: 228px;
+            height: 390px;
+            &:first-child{
+                margin-left: 46px;
+            }
+            &:nth-child(2){
+                width: 228px;
+                height: 360px;
+            }
+            &:nth-child(3){
+                width: 228px;
+                height: 304px;
+            }
+        }
+        &__header{
+            font-size: 13px;
+        }
+        &__items{
+            margin-top: 5px;
+            font-size: 10px;
+            line-height: 17px;
+            text-align: justify;
+        }
+        .mb20px{
+            margin-bottom: 5px;
+        }
+        &__cost{
+            margin-top: 0px;
+            font-size: 12px;
+        }
+        &__price{
+            font-size: 12px;
+        }
+        &__link{
+            font-size: 10px;
+            padding: 5px 60px 0 60px;
+        }
+        &__btn{
+            margin-top: 5px;
+            width: 192px;
+            height: 32px;
+        }
+    }
+
+
+    //четвертая страница
+    .promo{
+        margin-top: 100px;
+        height: 292px;
+        &__border{
+            width: 228px;
+            height: 173px;
+        }
+        &__header{
+            display: none;
+        }
+        &__descr{
+            margin-top: 10px;
+            font-size: 10px;
+            line-height: 14px;
+            width: 198px;
+            height: 163px;
+        }
+        &__mobile{
+            display: block;
+            margin-bottom: 20px;
+            text-align: center;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 21px;
+            color: #FF003B;
+        }
+        br{
+            display: none;
+        }
+        .mob{
+            display: block;
+        }
+    }
+
+
+    //пятая страница
+    .works{
+        height: 236px;
+        &__bg{
+            background: url('../img/bg_work.svg')  center (center/cover) no-repeat;
+        }
+        &__image{
+            padding: 30px 10px 0 30px;
+        }
+        &__img{
+            margin-right: 8px;
+            margin-bottom: 15px;
+            width: 60px;
+            height: 60px;
+        }
+    }
+
+    //шестая страница
+
+    .pupils{
+        margin: 0 auto;
+        border: none;
+        &__bg{
+            background: url('../img/pupils_bg_mob.svg')  center (center/cover) no-repeat;
+            height: 420px;
+            border: none;
+        }
+        &__header{
+            padding-right: 7px;
+            padding-top: 60px;
+            font-size: 12px;
+        }
+        &__img{
+            margin: 20px 32px 0 35px;
+            width: 249px;
+            height: 200px;
+        }
+    }
+}
