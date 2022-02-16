@@ -53,7 +53,6 @@
 
     //третья страница
     .courses{
-        height: 1500px;
         &__flex{
             flex-wrap: wrap;
             align-items: center;
@@ -295,22 +294,19 @@
 
     //третья страница
     .courses{
-        height: 1300px;
+        margin-bottom: 50px;
         &__tab{
             padding: 25px 10px 25px 10px;
             margin-left: 46px;
             width: 228px;
-            height: 390px;
             &:first-child{
                 margin-left: 46px;
             }
             &:nth-child(2){
                 width: 228px;
-                height: 360px;
             }
             &:nth-child(3){
                 width: 228px;
-                height: 345px;
             }
         }
         &__header{
